@@ -10,7 +10,7 @@ int main(){
         
         celsius=5*(fahrenheit-32)/9;
 
-        printf("%d F    %d C\n", fahrenheit, celsius);
+        printf("%d F\t%d C\n", fahrenheit, celsius);
         fahrenheit+=20;
     }
 
