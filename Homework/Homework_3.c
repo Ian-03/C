@@ -7,8 +7,8 @@ int main(){
     int c,flag=FALSE,flag2=FALSE,flag3=FALSE;
 
     //I used 3 flags, the first one to only print 1 'X' if there are more numbers in a row.
-    //the second flag to know if there are any quote and to ignore the code of the 'X' of numbers.
-    //the third flag to know the end of the quotes.
+    //the second flag to know if there are any quotes and to ignore the code of the 'X' of numbers and also the end of the quotes
+    //the third flag to avoid any confussion with the "".
 
     while((c=getchar())!=EOF){
 
