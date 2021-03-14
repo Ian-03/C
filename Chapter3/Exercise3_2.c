@@ -24,6 +24,7 @@ void getline (char s[]){
     while((c=getchar()) != EOF){
         s[i++]=c;
     }
+    s[i]='\0';
 }
 
 void escape (char t[], char s[]){
@@ -31,14 +32,18 @@ void escape (char t[], char s[]){
     int i=0,j=0;
 
     while (s[i] != '\0'){  
-        if (s[i]=='\n'){
-            t[j++]='\\';
-            t[j++]='n';
-        }else if (s[i]=='\t'){
-            t[j++]='\\';
-            t[j++]='t';
-        }else t[j++]=s[i];
+        switch (s[i]){
+
+            case '\n': t[j++]='\\';
+               t[j++]='n';
+               break;
+            case'\t': t[j++]='\\';
+              t[j++]='t';
+              break;
+            default: t[j++]=s[i]; break;
+        }
         i++;
         
     }
 }
+
