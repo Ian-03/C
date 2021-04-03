@@ -1,14 +1,14 @@
 #include<stdio.h>
 
 int lower (int);
-void getline (char [], int);
+void gline (char [], int);
 
 int main (){
 
     const int MAX=100;
     char line[MAX];
 
-    getline (line, MAX);
+    gline (line, MAX);
 
     printf("%s", line);
 
@@ -21,7 +21,7 @@ int lower (int c){
     return (c>='A' && c<='Z') ? c + 'a' - 'A' :  c;
 }
 
-void getline (char line[], int MAX){
+void gline (char line[], int MAX){
 
     int i,c;
     
