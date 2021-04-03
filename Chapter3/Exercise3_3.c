@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-void getline (char[], int);
+void gline (char[], int);
 
 void expand (char [],char []);
 
@@ -10,7 +10,7 @@ int main(){
   const int max=1000;
   char s1[max],s2[max];
 
-  getline(s1,max);
+  gline (s1,max);
 
   expand (s1,s2);
 
@@ -21,7 +21,7 @@ void expand (char s1[], char s2[]){
 
   int j=0;
 
-  for (int i=0; i<strlen(s1); i++){
+  for (int i=0; s1[i]!='\0'; i++){
   
     if (s1[i]=='-' && i!=0 && i!=strlen(s1)-1){
 
@@ -38,7 +38,7 @@ void expand (char s1[], char s2[]){
   printf("%s",s2);
 }
 
-void getline (char s1[], int max){
+void gline (char s1[], int max){
 
   int c,i;
 
