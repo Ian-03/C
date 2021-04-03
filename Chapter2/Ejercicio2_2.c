@@ -8,12 +8,12 @@ int main(){
 
     while(i<MAX){
         c=getchar();    
-            if((c=getchar())!=EOF){
+            if(c!=EOF){
                 if(c!='\n'){
                     line[i]=c;
                     i++;
-                }
-            }
+                }else return 0;
+            }else return 0;
     }
 
 
