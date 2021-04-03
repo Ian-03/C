@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void getline (char []);
+void gline (char []);
 
 void escape (char [], char []);
 
@@ -9,7 +9,7 @@ int main(){
     const int MAX=1000;
     char s[MAX], t[MAX];
 
-    getline (s);
+    gline (s);
     escape (t,s);
 
     printf("%s",t);
@@ -17,7 +17,7 @@ int main(){
     return 0;
 }
 
-void getline (char s[]){
+void gline (char s[]){
 
     int i=0,c;
 
