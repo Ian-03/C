@@ -46,7 +46,7 @@ void getline (char s1[], int max){
     s1[i]=c;
   }
   if(c=='\n'){
-    s1[i++]='\n';
+    s1[i++]=c;
   }
   s1[i]='\0';
 
