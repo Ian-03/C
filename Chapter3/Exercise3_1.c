@@ -13,7 +13,7 @@ int main (){
 
 int binsearch (int x, int v[], int n){
 
-    int low=0, high=n-1, mid=(high+low)/2;
+    int low=0, high=n-1, mid;
 
     while(low<=high){
 
