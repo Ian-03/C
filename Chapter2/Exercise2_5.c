@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void getline (char [],int);
+void gline (char [],int);
 
 char strpbrkz (char [], char []);
 
@@ -11,8 +11,8 @@ const int MAX=1000;
 char line1[MAX];
 char line2[MAX];
 
-    getline (line1,MAX);
-    getline (line2,MAX);
+    gline (line1,MAX);
+    gline (line2,MAX);
 
     strpbrkz (line1,line2);
 
@@ -46,7 +46,7 @@ char strpbrkz (char line1[], char line2[]){
 
 }
 
-void getline (char line[], int MAX){
+void gline (char line[], int MAX){
 
     int i,c;
     
