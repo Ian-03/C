@@ -11,7 +11,9 @@ int main (){
     int n=75;   //change number here
     int b=16;    //change the base that you want (2>=b>=36)
 
-    itob (n,s,b); 
+    itob(n,s,b);
+
+    printf("%s",s); 
 
     return 0;
 }
@@ -37,8 +39,6 @@ void itob (int n, char s[], int b){
     s[i]='\0';
 
     reverse (s);
-
-    printf("%s",s);
 
 }
 
