@@ -28,7 +28,7 @@ void itob (int n, char s[], int b){
     }
 
     while(n>0){
-        s[i++]=(n%b<10) ? n%b+'0' : n%b+55;  //if the remaning is larger than 9 that means that it
+        s[i++]=(n%b<10) ? n%b+'0' : n%b+55;  //if the remainder is larger than 9 that means that it
         n/=b;                                //will be a letter and the character 'A' is at 65th position .
     }
 
