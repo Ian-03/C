@@ -26,15 +26,15 @@ void gline (char s[], int MAX){
     for(i=0; i<MAX-1 && (c=getchar())!='\n' && c!=EOF; i++){
         s[i]=c;
     }
-    s[i+1]='\0';
+    s[i]='\0';
 }
 
 int htoi (char s[]){
 
     int n=0;
 
-    for(int i=0; isdigit(s[i]) || tolower(s[i])>='a' && tolower(s[i])<='z'; i++){
-        if(s[0]=='0'){
+    for(int i=0; s[i]!='\0'; i++){
+        if(s[i]=='0' && tolower(s[i+1])=='x'){
             i+=2;
         }
         if(isdigit(s[i])){
