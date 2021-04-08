@@ -2,7 +2,7 @@
 
 void gline (char [],int);
 
-char strpbrkz (char [], char []);
+char any (char [], char []);
 
 int main (){
 
@@ -14,12 +14,12 @@ char line2[MAX];
     gline (line1,MAX);
     gline (line2,MAX);
 
-    strpbrkz (line1,line2);
+    any (line1,line2);
 
     return 0;
 }
  
-char strpbrkz (char line1[], char line2[]){
+char any (char line1[], char line2[]){
 
     int j,i,c=0;
     char f;
