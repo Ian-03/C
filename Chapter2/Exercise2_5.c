@@ -14,7 +14,7 @@ char line2[MAX];
     gline (line1,MAX);
     gline (line2,MAX);
 
-    any (line1,line2);
+    printf("%c",any (line1,line2));
 
     return 0;
 }
@@ -41,7 +41,7 @@ char any (char line1[], char line2[]){
         return -1;
     }
     else{
-        printf("%c",f);
+        return f;
         } 
 
 }
