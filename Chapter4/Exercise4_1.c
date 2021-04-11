@@ -48,7 +48,7 @@ int strrindex (char s[], char t[]){
         }
 
         if (k>0 && t[k]=='\0' && i>rightmost){
-            rightmost=i;
+            rightmost=i-1;
         }
     }
 
