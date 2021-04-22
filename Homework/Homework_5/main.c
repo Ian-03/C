@@ -1,8 +1,8 @@
 /*
 how to use this program: 
 when the program ask you to type a positionyou just need 
-to type to letters together, doesnt matter if it's lower or
-upper case, examples: aa, Be, CC, ea, etc...
+to type to letters together, first the x axis and then y axis,
+doesnt matter if it's lower or upper case, examples: aa, Be, CC, ea, etc...
 */
 
 #include<stdio.h>
@@ -135,6 +135,8 @@ void board (int nmines){
 void printboard (char array[30][30]){
 	
 	int i, j;
+	
+	printf (" ");
 	
 	for (i = 0; i <= size; i++){
 		
