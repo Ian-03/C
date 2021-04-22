@@ -1,6 +1,8 @@
 /*
 how to use this program: 
-You just need to type to letters together, doesnt matter if it's lower or upper case, examples: aa, Be, CC, ea, etc...
+when the program ask you to type a positionyou just need 
+to type to letters together, doesnt matter if it's lower or
+upper case, examples: aa, Be, CC, ea, etc...
 */
 
 #include<stdio.h>
