@@ -1,7 +1,7 @@
 /*
 how to use this program: 
 when the program ask you to type a positionyou just need 
-to type to letters together, first the x axis and then y axis,
+to type to letters together, first the row and then the column,
 doesnt matter if it's lower or upper case, examples: aa, Be, CC, ea, etc...
 */
 
@@ -39,13 +39,13 @@ int main (){
 		
 		pos[0] = toupper(pos[0]), pos[1] = toupper(pos[1]);
 		
-		if (internalboard[pos[1] - 'A' + 1][pos[0] - 'A' + 1] != 'X'){ 
+		if (internalboard[pos[0] - 'A' + 1][pos[1] - 'A' + 1] != 'X'){ 
 			
-			if (internalboard[pos[1] - 'A' + 1][pos[0] - 'A' + 1] == '0'){ //i couldn't do the recursive reveal but I did this to make it a little easier if it is a 0
+			if (internalboard[pos[0] - 'A' + 1][pos[1] - 'A' + 1] == '0'){ //i couldn't do the recursive reveal but I did this to make it a little easier if it is a 0
 				
-				for (i = pos[1] - 'A'; i < pos[1] + 3 - 'A'; i++){
+				for (i = pos[0] - 'A'; i < pos[0] + 3 - 'A'; i++){
 					
-					for ( j = pos[0] - 'A'; j < pos[0] + 3 - 'A'; j++){
+					for ( j = pos[1] - 'A'; j < pos[1] + 3 - 'A'; j++){
 						
 						if (isdigit(internalboard[i][j])){   
 						
@@ -54,7 +54,7 @@ int main (){
 					}
 					
 				}
-			}else externalboard[pos[1] - 'A' + 1][pos[0] - 'A' + 1] = internalboard[pos[1] - 'A' + 1][pos[0] - 'A' + 1];	
+			}else externalboard[pos[0] - 'A' + 1][pos[1] - 'A' + 1] = internalboard[pos[0] - 'A' + 1][pos[1] - 'A' + 1];	
 			
 		}else{
 			
