@@ -40,7 +40,7 @@ int main()
             exit(1);
         }
         printf("**  #%d !!, Bienvenido al sistema ** \nQue deseas hacer?\n", pin);
-        printf("-Presiona 1 si vas a entrar al jale\n-Presiona 2 si vas a salir del jale\n");
+        printf("-Presiona '1' si vas a empezar a trabajar\n-Presiona '2' si vas a salir de trabajar\n");
         scanf("%d", &option);
         switch (option)
         {
@@ -67,7 +67,7 @@ int main()
             flujo = fopen("log.txt", "a");
             printf("Se ha registrado tu salida pin:%d hoy:%s %s\n", pin, output, buffer);
             fprintf(flujo, "s%d %lu %s %s %d\n", pin, (unsigned long)time(NULL), output, buffer, totaltime(pin));
-            printf("\n Has trabajado por %d segundos \nHasta Luego!\n", totaltime(pin));
+            printf("\n Has trabajado por %d segundos\n", totaltime(pin));
             fclose(flujo);
             fprintf(flujo, "%d %d\n", pin, totaltime(pin));
             break;
