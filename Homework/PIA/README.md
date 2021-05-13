@@ -25,6 +25,6 @@ Options:
 * The option of modify your ideas will be to modify the proyects that are already in the .txt file, so we can change the info of a proyect that we have created.
 
 ## Author
-Ian Patricio Salazar Villareal
+Ian Patricio Salazar Villarreal
 
 In Discord you can find me as "Ian-03"
