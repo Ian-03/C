@@ -8,8 +8,11 @@ The program will help you to create your own music in a easy way and also will h
 Options:
 
 1) Create the base of a new song
+
 2) Check chords affinity 
+ 
 3) Save your song idea
+ 
 4) Modify your ideas
 ```
 
