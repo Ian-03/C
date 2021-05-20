@@ -10,7 +10,7 @@ https://youtu.be/mzIRA9YN2fc
 
 The only way to check that the program works is recording me playing the piano with the chords and tone in the txt file that I created in the video with the program.
 
-If you want you can listen to the songs with these links, are under 50 seconds
+If you want you can listen to the songs with these links, are under 40 seconds
 
 Song based on the affinity option: https://youtu.be/ObKHbMAsApg
 
