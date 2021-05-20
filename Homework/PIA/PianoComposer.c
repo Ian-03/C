@@ -70,7 +70,7 @@ void notes (){
 
 //----------------------------------------------------------------------
 
-void check_songs (){
+void check_songs (){          //see how many songs are already in the txt file
 
     int i, c;
 
@@ -114,7 +114,7 @@ void create_base (){
 
     while (1){
 
-        printf("\n -Type the tone of the song (Ex. 'C', 'f#', 'LAb', 'do', 'B'): ");
+        printf("\n -Type the tone of the song (Ex. 'C', 'f#', 'LAb', 'do', 'B'): ");    //check what tone will be the song 
         fflush (stdin);
         scanf("%s", t);
         upper (t);
@@ -177,7 +177,7 @@ void create_base (){
 
     size = 0; 
 
-    for (i = 0; i < amount_chords; i++){
+    for (i = 0; i < amount_chords; i++){   //get the chords
         
         size++;
 
@@ -232,6 +232,8 @@ void affinity (){
 
     int num, i, j, nchords, numchords[20], flag;
 
+    //basic scales
+    
     int c[] = {1,3,5,6,8,10,12};
     int d[] = {2,3,5,7,8,10,12};
     int e[] = {2,4,5,7,9,10,12};
@@ -296,7 +298,7 @@ void affinity (){
     printf("\nHow many chords do you want to check? ");
     scanf("%d", &nchords);
 
-    printf("\n-You are going to type the tone basing on the above list (Ex. '1' '5' '11' etc)\n");
+    printf("\n-You are going to type the tone basing on the above list (Ex. '1' '5' '11' etc)\n");  
 
     for (i = 0; i < nchords; i++){
 
@@ -304,7 +306,7 @@ void affinity (){
         scanf("%d", &numchords[i]);
     }
 
-    printf("\nResults:\n");
+    printf("\nResults:\n");    //print if there's any problems with the chords
 
     for (i = 0; i < nchords; i++){
         
@@ -368,7 +370,7 @@ void affinity (){
 
 //-----------------------------------------------------------------------------------------------------
 
-void save_song (){
+void save_song (){    //
 
     printf("Data of the song:\n");
 
@@ -446,7 +448,7 @@ void modify_song (){
         fflush(stdin);
         scanf("%d", &x);
 
-    } while (x > 5 || x < 1);
+    } while (x > 5 || x < 1);  //avoid mistakes
 
     system("cls");
 
@@ -538,7 +540,7 @@ void rewrite_songs (){     //if we modify something of a song then this funcions
     }
 }
 
-void upper (char s[]){
+void upper (char s[]){  //pass all strings to upper case
 
     int i;
 
