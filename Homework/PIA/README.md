@@ -8,15 +8,13 @@ This is the link to the video of the project result:
 
 https://youtu.be/mzIRA9YN2fc
 
-This links are from videos playing the piano with the chords that the program generate us:
+The only way to check that the program works is recording me playing the piano with the chords in the txt file that I created in the video with the program
 
-Test1:
+Song based on the affinity option: https://youtu.be/ObKHbMAsApg
 
-Test2:
+Song based on the create base option: https://youtu.be/I_ag-8ij57Y
 
-*working on them :)*
-
-The only way to check that the program works is recording me playing the piano with the chords in the txt file that we create with the program
+*The songs are strictly attached to what the program told us, the right hand was playing a improvisation  in the tone and the left hand played the chords *
 
 
 ## Functions of the program:
