@@ -4,9 +4,15 @@ The program will help you to create your own music in a easy way and also will h
 
 ## Link Youtube
 
-This is the link to the video of the project :
+This is the link to the video of the project result:
 
 https://youtu.be/mzIRA9YN2fc
+
+This links are to show the real results of the program:
+
+*working on them :)*
+
+The only way to comprobe that the program works is recording me playing the piano with the info in the txt file that we create with the program
 
 
 ## Functions of the program:
