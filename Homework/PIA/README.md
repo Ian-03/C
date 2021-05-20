@@ -14,7 +14,7 @@ Song based on the affinity option: https://youtu.be/ObKHbMAsApg
 
 Song based on the create base option: https://youtu.be/I_ag-8ij57Y
 
-*The songs are strictly attached to what the program told us, the right hand was playing a improvisation  in the tone and the left hand played the chords *
+*The songs are strictly attached to what the program told us, the right hand was playing an improvisation  in the tone that we chose and the left hand played the chords that the program gave us*
 
 
 ## Functions of the program:
