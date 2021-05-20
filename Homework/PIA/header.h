@@ -35,5 +35,3 @@ void rewrite_songs ();   //pass all the songs that are in the struct to the txt 
 void upper (char []);   //convert all the strings in upper case strings to make the program easier
 
 int repetition (int [], int); 
-
-int option, k = 0;
