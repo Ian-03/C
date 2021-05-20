@@ -27,6 +27,10 @@ Options:
 
 * The option of modify your ideas will be to modify the proyects that are already in the .txt file, so we can change the info of a proyect that we have created.
 
+## Link Youtube
+
+https://youtu.be/mzIRA9YN2fc
+
 ## Author
 Ian Patricio Salazar Villarreal
 
