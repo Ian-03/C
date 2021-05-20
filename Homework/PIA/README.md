@@ -67,7 +67,7 @@ In Discord you can find me as "Ian-03"
 
 ## References
 
-This links go to musical theory info
+This links go to musical theory info that I used to created the program with some knowledge that i already had (there's no code in the links)
 
 https://zuerichgitarrenunterricht.ch/en/constructing-major-scales/#:~:text=The%20formula%20for%20creating%20a,whole%2C%20whole%2C%20half.”&text=half%3A%20b%20to%20c%20–%20Note,notes%20repeat%20over%20and%20over.
 
