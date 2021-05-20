@@ -18,6 +18,14 @@ Song based on the create base option: https://youtu.be/I_ag-8ij57Y
 
 *The songs are strictly attached to what the program told us, the right hand was playing an improvisation  in the tone that we chose and the left hand played the chords that the program gave us*
 
+##
+
+1: complexity 2 (I think I could make it harder)
+2: functionality 3 (it works, there are 2 videos of the results)
+3: code 3 (I put comments in all the code and I think is clean)
+4: storage 3 (I used a struct and use some txt files)
+5: documentation 2 (I think i could improve the video)
+CF 13 out of 15
 
 ## Functions of the program:
 
