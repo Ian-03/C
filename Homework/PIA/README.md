@@ -8,11 +8,15 @@ This is the link to the video of the project result:
 
 https://youtu.be/mzIRA9YN2fc
 
-This links are to show the real results of the program:
+This links are from videos playing the piano with the chords that the program generate us:
+
+Test1:
+
+Test2:
 
 *working on them :)*
 
-The only way to comprobe that the program works is recording me playing the piano with the info in the txt file that we create with the program
+The only way to check that the program works is recording me playing the piano with the chords in the txt file that we create with the program
 
 
 ## Functions of the program:
