@@ -51,6 +51,7 @@ In Discord you can find me as "Ian-03"
 ## References
 
 This links go to musical theory info
+
 https://zuerichgitarrenunterricht.ch/en/constructing-major-scales/#:~:text=The%20formula%20for%20creating%20a,whole%2C%20whole%2C%20half.”&text=half%3A%20b%20to%20c%20–%20Note,notes%20repeat%20over%20and%20over.
 
 https://music.stackexchange.com/questions/5807/how-to-know-what-notes-will-go-together-while-improvising
