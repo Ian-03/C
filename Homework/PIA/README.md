@@ -2,6 +2,13 @@
 The program will help you to create your own music in a easy way and also will help you to check the ideas that you have in mind and save them in a .txt file so you can see them later or modify them in the program. 
 
 
+## Link Youtube
+
+This is the link to the video of the project :
+
+https://youtu.be/mzIRA9YN2fc
+
+
 ## Functions of the program:
 
 ```python
@@ -27,11 +34,6 @@ Options:
 
 * The option of modify your ideas will be to modify the proyects that are already in the .txt file, so we can change the info of a proyect that we have created.
 
-## Link Youtube
-
-This is the link to the video:
-
-https://youtu.be/mzIRA9YN2fc
 
 ## Author
 Ian Patricio Salazar Villarreal
