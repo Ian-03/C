@@ -8,7 +8,7 @@ This is the link to the video of the project result:
 
 https://youtu.be/mzIRA9YN2fc
 
-The only way to check that the program works is recording me playing the piano with the chords in the txt file that I created in the video with the program
+The only way to check that the program works is recording me playing the piano with the chords and tone in the txt file that I created in the video with the program
 
 Song based on the affinity option: https://youtu.be/ObKHbMAsApg
 
